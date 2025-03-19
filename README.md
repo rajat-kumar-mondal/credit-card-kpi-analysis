@@ -20,8 +20,6 @@ data/
 - **Exploratory Data Analysis (EDA)**: Insights into credit card spending habits.
 - **Spending Pattern Analysis**: Analysis of different customer groups based on spending patterns.
 - **Target Group Finding:** Finding the target group to offer the new credit card, ensuring they cannot reject it and will actively use it.
-- **Campaign Impact Analysis**: Evaluates how marketing campaigns affect credit card usage through hypothesis testing.
-
 
 ## 🛠 Installation & Usage
 ### 1️⃣ Clone the Repository
