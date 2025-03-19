@@ -48,54 +48,17 @@ The dataset contains transactional and demographic data, including:
 - **`avg_transactions_after_campaign.csv`**: Insights into transactions post-marketing campaign (62 records).
 
 ## 🔬 Statistical Methods Used
-- **Descriptive Statistics:** Mean, median, variance, standard deviation, range, IQR, effect size.
+- **Descriptive Statistics:** Mean, median, variance, standard deviation, range, IQR, statistical power, and effect size.
 - **Data visualization:** Histograms, box plots, scatter plots, etc.
 - **Hypothesis Testing:** A/B test, Z-test, and 2 sample Z-test to find statistical significance.
 - **Correlation Analysis:** Identifies relationships between credit profiles attributes.
 
 ## 📈 Key Insights & Results
-1. Identified untapped market with individuals with 18-25 age group (~ 26% of the customer base) with avg. annual income less than $50K,  as potential target group to offering the new credit card using the descriptive statistical techniques mentioned above.
-2. 
-1. **Customer Demographics & Income Distribution**  
-   - Total customers: **1,000**  
-   - Average age: **36.4 years** (min: **1 year**, max: **135 years**)  
-   - Median annual income: **$112,218**  
-   - Highest recorded annual income: **$449,346**  
-   - **50 missing values** in `annual_income` were imputed using the median per occupation.  
-
-2. **Credit Score & Spending Behavior**  
-   - Average credit score: **588.7** (min: **300**, max: **799**)  
-   - Customers with **credit scores below 600** have **2.5x higher outstanding debt** than others.  
-   - The **average outstanding debt** is **$9,683**, with a maximum of **$209,901**.  
-   - The **credit utilization rate** averages **49.9%**, with a peak at **89.9%**.  
-   - The **median credit limit** is **$1,250**, with a maximum limit of **$60,000**.  
-
-3. **Transaction Trends**  
-   - Total transactions: **500,000**  
-   - **Average transaction amount**: **$3,225**  
-   - **Minimum transaction amount**: **$0**, maximum: **$69,999**  
-   - **Top 25% of customers spend over $397 per transaction**, while the bottom 25% spend **less than $64**.  
-
-4. **Marketing Campaign Impact**  
-   - **Control Group (Pre-Campaign)**: **Avg. transactions per customer: 248.94**  
-   - **Test Group (Post-Campaign)**: **Avg. transactions per customer: 370.53**  
-   - **Campaign effectiveness**: **48.8% increase** in transaction activity.  
-
-5. **Spending Patterns by Age Group**  
-   - **Customers aged 25-40** spend the most per transaction (**$87.5** average).  
-   - **Customers aged 18-24** have **higher transaction frequency**, but their **average spend per transaction** is **$45.2**.  
-
-6. **Hypothesis Testing & Statistical Significance**  
-   - **T-tests confirm** that the increase in spending post-campaign is statistically significant (p-value **< 0.05**).  
-   - **Chi-square tests** show a strong correlation between **occupation type and spending behavior** (χ² = **32.7**, p-value **< 0.01**).  
-
-7. **Correlation Analysis**  
-   - **Positive correlation (0.65)** between **annual income and total spending**.  
-   - **Negative correlation (-0.42)** between **credit utilization rate and credit score** (i.e., higher utilization leads to lower credit scores).  
-
-## 🤝 Contribution
-Feel free to contribute by submitting **pull requests** or reporting **issues**!
+1. Identified an untapped market within the 18–25 age group (~26% of the customer base) with an average annual income of less than $50K (with limited credit history and low credit card usage) as a potential target group (test group) for offering the new credit card using the descriptive statistical techniques mentioned above.
+2. Found that Electronics, Fashion & Apparel, and Beauty & Personal Care are the top three shopping categories for the target group using the same techniques.
+3. Identified the optimal sample size that balances cost efficiency and statistical reliability for the campaign, with a statistical power of 80% and an effect size of 2.
+4. Designed hypotheses (i.e., H0 and Ha) and tested them using the hypothesis testing techniques mentioned above, rejecting the null hypothesis with 95% confidence. By accepting Ha, we found that the average transaction amount for the test group is greater than that of the control group.
+5. Based on the findings, we can launch the credit card exclusively in the market for the 18–25 age group.
 
 ---
-### 📢 If you find this project helpful, give it a ⭐ on GitHub!
 
