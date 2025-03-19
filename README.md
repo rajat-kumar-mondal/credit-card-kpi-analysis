@@ -24,7 +24,7 @@ data/
 ## 🛠 Installation & Usage
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/yourusername/credit-card-KPI-analysis.git
+git clone https://github.com/rajat-kumar-mondal/credit-card-kpi-analysis.git
 cd credit-card-kpi-analysis
 ```
 
